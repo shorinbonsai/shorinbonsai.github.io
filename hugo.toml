@@ -5,11 +5,12 @@ enableEmoji = true
 theme = "anatole"
 
 [params]
-title = "A Little Bit Rusty"
+title = "The Junction"
 author = "James Sargant"
 description = "A Digital Home"
 profilePicture = "images/profile_pic.jpeg"
 mainSections = ["blog"]
+
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -26,3 +27,32 @@ url = "https://github.com/shorinbonsai"
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:shorinbonsai@gmail.com"
+
+
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Portfolio"
+  weight = 400
+  identifier = "portfolio"
+  url = "/portfolio/"
