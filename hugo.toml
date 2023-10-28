@@ -10,6 +10,8 @@ author = "James Sargant"
 description = "A Digital Home"
 profilePicture = "images/profile_pic.jpeg"
 mainSections = ["blog"]
+displayMode = "dark"
+contentratio = 0.6
 
 
 [[params.socialIcons]]
