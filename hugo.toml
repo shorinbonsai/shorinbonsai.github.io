@@ -48,13 +48,7 @@ url = "mailto:shorinbonsai@gmail.com"
   url = "/blog/"
 
   [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-
-  [[menu.main]]
   name = "Portfolio"
-  weight = 400
+  weight = 300
   identifier = "portfolio"
   url = "/portfolio/"
