@@ -52,8 +52,3 @@ url = "mailto:shorinbonsai@gmail.com"
   identifier = "portfolio"
   url = "/portfolio/"
 
-  [[menu.main]]
-  name = "Newsletter"
-  weight = 400
-  identifier = "contact"
-  url = "/newsletter/"
